@@ -623,20 +623,9 @@ export default function App() {
           </div>
 
           {/* Copyright */}
-          <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div className="border-t border-white/10 pt-6 flex items-center justify-center">
             <p className="text-white/50 text-xs text-center">
               © {new Date().getFullYear()} SAROHA Hospital. All rights reserved.
-            </p>
-            <p className="text-white/40 text-xs text-center">
-              Built with ♥ using{" "}
-              <a
-                href={`https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(window.location.hostname)}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-white/60 transition-colors"
-              >
-                caffeine.ai
-              </a>
             </p>
           </div>
         </div>
